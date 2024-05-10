@@ -1,0 +1,60 @@
+<script src="//cdn.jsdelivr.net/npm/phaser@3.52.0/dist/phaser.js"></script>
+<script defer type="text/javascript" src="./js/tun_dash_app.js"></script>
+
+<style>
+
+  html, body {
+    /* height: 100%; */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+   }
+
+   .phaser-container {
+    color: #eee;
+    font: caption;
+
+  }
+
+  canvas {
+    /* And see postBoot() in JS */
+    /*width: 100%;*/
+    /*
+    height: 100%;
+    object-fit: contain;
+    */
+    /*margin-left: 5em;
+    margin-right: 5em;*/
+
+    /* <https://caniuse.com/#feat=object-fit> */
+  }
+
+
+  .tun-phaser-wrapper {
+    /* And see postBoot() in JS */
+    /*width: 100%;*/
+    /*height: 100%;
+    object-fit: contain;*/
+    margin-left: 5em;
+    margin-right: 5em;
+
+    /* <https://caniuse.com/#feat=object-fit> */
+  }
+
+  #version {
+    position: absolute;
+    left: 5px;
+    top: 605px;
+  }
+
+</style>
+<div id="tun-dash-game" class="tun-phaser-wrapper" data-level="">
+
+<div id="phaser" class="phaser-container" style=""></div>
+
+</div>
+
+</div>
