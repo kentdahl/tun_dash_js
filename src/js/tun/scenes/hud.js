@@ -14,11 +14,10 @@ export class HudScene extends Phaser.Scene {
 		var style = DEFAULT_STYLE
 		var title = "Tunnel Dash"
 		var titleText = this.add.text(64,8, title, style)
-		titleText.setAlpha(0.3)
-
+		titleText.setAlpha(0.0)
 
 		// Motion buttons
-		var debugRectAlpha = 0.3
+		var debugRectAlpha = 0.01
 
 		var leftRect = this.add.rectangle(0, 400, 120, 80).setOrigin(0);
 		leftRect.setStrokeStyle(2, 0x1a65ac);
