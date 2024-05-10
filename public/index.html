@@ -1,60 +1,52 @@
-<script src="//cdn.jsdelivr.net/npm/phaser@3.52.0/dist/phaser.js"></script>
-<script defer type="text/javascript" src="./js/tun_dash_app.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<style>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.52.0/dist/phaser.js"></script>
+    <script defer type="text/javascript" src="./js/tun_dash_app.js"></script>
 
-  html, body {
-    /* height: 100%; */
-  }
+    <style>
 
-  body {
-    margin: 0;
-    padding: 0;
-    background: #111;
-   }
+      html, body {
+        /* height: 100%; */
+      }
 
-   .phaser-container {
-    color: #eee;
-    font: caption;
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+       }
 
-  }
+       .phaser-container {
+        color: #eee;
+        font: caption;
 
-  canvas {
-    /* And see postBoot() in JS */
-    /*width: 100%;*/
-    /*
-    height: 100%;
-    object-fit: contain;
-    */
-    /*margin-left: 5em;
-    margin-right: 5em;*/
+      }
 
-    /* <https://caniuse.com/#feat=object-fit> */
-  }
+      .tun-phaser-wrapper {
+        margin-left: 5em;
+        margin-right: 5em;
+      }
 
+      #version {
+        position: absolute;
+        left: 5px;
+        top: 605px;
+      }
 
-  .tun-phaser-wrapper {
-    /* And see postBoot() in JS */
-    /*width: 100%;*/
-    /*height: 100%;
-    object-fit: contain;*/
-    margin-left: 5em;
-    margin-right: 5em;
+    </style>
 
-    /* <https://caniuse.com/#feat=object-fit> */
-  }
+  </head>
 
-  #version {
-    position: absolute;
-    left: 5px;
-    top: 605px;
-  }
+  <body>
 
-</style>
-<div id="tun-dash-game" class="tun-phaser-wrapper" data-level="">
+    <div id="tun-dash-game" class="tun-phaser-wrapper" data-level="">
+      <div id="phaser" class="phaser-container" style=""></div>
+    </div>
 
-<div id="phaser" class="phaser-container" style=""></div>
+  </body>
 
-</div>
-
-</div>
+</html>
