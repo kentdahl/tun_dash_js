@@ -1,0 +1,13 @@
+title: "Magic Maze: Tunnel Dash"
+tagline: Dash down corridors dodging monsters.
+# description: The renowned dark theme for ...
+url: https://kentdahl.github.io/tun_dash_js/
+# logo:
+
+
+github:
+  owner_name: kentdahl
+  owner_url: https://github.com/kentdahl
+
+
+theme: jekyll-theme-merlot
