@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.52.0/dist/phaser.js"></script>
+    <script defer type="text/javascript" src="./js/tun_dash_app.js"></script>
+
+    <style>
+
+      html, body {
+        /* height: 100%; */
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+       }
+
+       .phaser-container {
+        color: #eee;
+        font: caption;
+
+      }
+
+      .tun-phaser-wrapper {
+        margin-left: 5em;
+        margin-right: 5em;
+      }
+
+      #version {
+        position: absolute;
+        left: 5px;
+        top: 605px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="tun-dash-game" class="tun-phaser-wrapper" data-level="">
+      <div id="phaser" class="phaser-container" style=""></div>
+    </div>
+
+  </body>
+
+</html>
